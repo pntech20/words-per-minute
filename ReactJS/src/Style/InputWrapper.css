@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Bellefair");
+
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  font-family: "Bellefair", serif;
+  font-size: 45px;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  padding-top: 10px;
+  background-color: white;
+}
+
+input {
+  font-family: "Bellefair", serif;
+  color: #2980b9;
+  font-size: 45px;
+}
+
+/* .left-wrap{
+  display: flex;
+  overflow: hidden;
+  flex-wrap:nowrap;
+  justify-content:center;
+  background-color: yellow;
+} */

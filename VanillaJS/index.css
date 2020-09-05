@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Bellefair");
+
+/* body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+/* App */
+.App {
+  text-align: center;
+  background-color: #222;
+  height: 100vh;
+}
+
+.App-footer {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/* COMPLETED */
+.Completed {
+  flex-grow: 2;
+  min-width: 10%;
+}
+
+.wrong {
+  color: red;
+}
+
+/* CURRENT */
+.Current {
+  max-width: 35%;
+}
+
+.in-progress {
+  color: black;
+}
+
+input {
+  border: 0px solid black;
+  border-width: 0 0 0 0;
+  outline-color: transparent;
+  outline-style: none;
+  width: 1%;
+  padding: 0;
+  margin: 0;
+}
+
+.wrong {
+  color: red;
+}
+
+.correct {
+  color: #2980b9;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  font-family: "Bellefair", serif;
+  font-size: 45px;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  padding-top: 10px;
+  background-color: white;
+}
+
+input {
+  font-family: "Bellefair", serif;
+  color: #2980b9;
+  font-size: 45px;
+}
+
+/* NEXT */
+.Next {
+  overflow: hidden;
+}
+
+.blocked {
+  text-decoration: line-through;
+}
+
+/* STATS */
+.InfoSettings {
+  background-color: #3498db;
+  background: linear-gradient(to bottom right, #3498db, #2c3e50);
+}
+
+.highlight {
+  border-color: red;
+}
+
+button {
+  border: 1px solid black;
+  font-size: 2em;
+  border-radius: 5%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.Settings {
+  background-color: #3498db;
+  background: linear-gradient(to bottom right, #3498db, #2c3e50);
+  color: white;
+}
+.Stats {
+  padding-top: 20px;
+  color: white;
+}
+
+.viewGrid {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+}
+
+.viewGrid p {
+  font-size: 2.5em;
+}
+
+.timeLeft {
+  font-size: 2.5em;
+}
+
+.yellowTime {
+  color: #f1c40f;
+}
+.redTime {
+  color: #e74c3c;
+}

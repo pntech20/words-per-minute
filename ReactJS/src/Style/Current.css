@@ -1,0 +1,33 @@
+.Current {
+  max-width: 35%;
+  /* margin-left: 5px; */
+  /* margin-right: 5px; */
+  /* background-color: grey; */
+  /* border-bottom: 1px solid black; */
+}
+
+.in-progress {
+  color: black;
+}
+
+.done {
+  /* background-color: orange; */
+}
+
+input {
+  border: 0px solid black;
+  border-width: 0 0 0 0;
+  outline-color: transparent;
+  outline-style: none;
+  width: 1%;
+  padding: 0;
+  margin: 0;
+}
+
+.wrong {
+  color: red;
+}
+
+.correct {
+  color: #2980b9;
+}

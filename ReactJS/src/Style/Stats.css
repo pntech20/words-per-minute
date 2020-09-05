@@ -1,0 +1,30 @@
+.Stats {
+  padding-top: 20px;
+  /* background-color: #3498db; */
+  /* background: linear-gradient(to bottom right, #3498db, #2c3e50); */
+  color: white;
+}
+
+.viewGrid {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  /* background-color: black; */
+}
+
+.viewGrid p {
+  font-size: 2.5em;
+}
+
+.timeLeft {
+  font-size: 2.5em;
+  /* padding-bottom: 10px; */
+}
+
+.yellowTime {
+  color: #f1c40f;
+}
+.redTime {
+  color: #e74c3c;
+}

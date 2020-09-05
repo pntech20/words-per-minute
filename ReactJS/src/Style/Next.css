@@ -1,0 +1,10 @@
+.Next {
+  /* display: inline-block; */
+  overflow: hidden;
+  /* min-width: 0; */
+  /* background-color: #b9b9b9; */
+}
+
+.blocked {
+  text-decoration: line-through;
+}

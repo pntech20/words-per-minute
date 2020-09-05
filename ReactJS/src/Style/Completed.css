@@ -1,0 +1,11 @@
+.Completed {
+  /* overflow: hidden; */
+  flex-grow: 2;
+  min-width: 10%;
+  /* display: inline-block; */
+  /* background-color: #c9c9c9; */
+}
+
+.wrong {
+  color: red;
+}

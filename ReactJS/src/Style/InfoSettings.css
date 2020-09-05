@@ -1,0 +1,16 @@
+.InfoSettings {
+  background-color: #3498db;
+  background: linear-gradient(to bottom right, #3498db, #2c3e50);
+}
+
+.highlight {
+  border-color: red;
+}
+
+button {
+  border: 1px solid black;
+  font-size: 2em;
+  border-radius: 5%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}

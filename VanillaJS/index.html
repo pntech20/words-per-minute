@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+
+  <title>Words per minute</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body cz-shortcut-listen="true">
+  <div id="root">
+    <div class="App">
+      <div class="InfoSettings">
+        <div class="Stats">
+          <div class="viewGrid">
+            <div>Words/min <p class="countCorrect"></p>
+            </div>
+            <div>Char/min <p class="charsPerMin"></p>
+            </div>
+            <div>Accuracy <p class="accuracy"></p>
+            </div>
+          </div>
+          <div class="timeLeft ">
+            <p class="secondsLeft">60 s</p>
+            <p class="animation">Ready</p>
+          </div>
+        </div><button type="button" onclick="{handleReset()}">Reset</button>
+      </div>
+      <div class="input-wrapper">
+        <div class="Completed"></div>
+        <div onclick="{highlightInput()}" class="Current">
+          <span id="done" class="done"></span>
+          <input id="word-input" onkeydown={handleKeyDown(event)} oninput={handleChange(event)} value="">
+          <span class="in-progress"></span>
+        </div>
+        <div class="Next"></div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="./index.js"></script>
+
+</body>
+
+</html>
